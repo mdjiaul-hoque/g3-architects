@@ -1,0 +1,23 @@
+body{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+   
+}
+
+.navigation-var{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-var ul{
+    display: flex;
+   
+}
+.navigation-var ul li{
+    list-style: none;
+     margin-right:30px ;
+}
+.navigation-var ul li a{
+    text-decoration: none;
+}
