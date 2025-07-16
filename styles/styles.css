@@ -6,6 +6,12 @@ body{
    
 }
 
+header{
+    /* background-color: #FF900E; */
+    background-color: rgba(255, 144, 14, 0.1);
+    
+   
+}
 .navigation-var{
     display: flex;
     justify-content: space-between;
@@ -20,4 +26,15 @@ body{
 }
 .navigation-var ul li a{
     text-decoration: none;
+}
+
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner-section , .navigation-var{
+    max-width: 1440px;
+     margin: 0 auto;
 }
