@@ -175,6 +175,7 @@ main>section{
 .feature-enjoy-img>button {
     margin-left: -30px;
     margin-top: -180px;
+   
 }
 .feature-enjoy-img {
     
@@ -279,7 +280,8 @@ footer{
 
 @media screen and (max-width:570px){
     .navigation-var,.navigation-var ul , .feature-section , .some-fact-section .some-fact-cards ,.some-fact-section .some-fact-cards ,
-    .sponspors-section .sponspors-imges
+    .sponspors-section .sponspors-imges,
+    .feature-enjoy-section
     {
         flex-direction: column;
     }
@@ -290,7 +292,8 @@ footer{
         gap: 1.5rem;
     }
     .feature-section .feature-images ,.some-fact-section .some-fact-cards, .some-fact-section .some-fact-cards ,
-    .sponspors-section .sponspors-imges
+    .sponspors-section .sponspors-imges,
+    .feature-enjoy-section
     {
         grid-template-columns: repeat(1 , 1fr);
       gap: 24px;
@@ -312,6 +315,11 @@ footer{
         align-items: center;
         gap: 40px;
     }
+    .feature-enjoy-img>button {
+        margin-top: 10px;
+    margin-left: 48%;
+   
+}
     
 
 }
